@@ -1,0 +1,9 @@
+/*******************************
+     AODN Global Variables
+*******************************/
+//@importGoogleFonts: false;
+
+
+@primaryColor: #FF44EE;
+@pageBackground: #CCCCCC;
+
