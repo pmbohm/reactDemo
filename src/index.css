@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*
+These rules invert the color theme
+ */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+/*html {*/
+/*  mix-blend-mode: difference;*/
+/*  filter: brightness(0.67) hue-rotate(180deg);*/
+/*  font-weight: 700 !important;*/
+/*}*/
+
+/*!* Glow for dropdown/card-hover*!*/
+/*.v-menu__content,*/
+/*.v-card--hover:hover {*/
+/*  box-shadow: 0 5px 20px rgba(142, 255, 252, 0.74);*/
+/*}*/
+
+/*.logo {*/
+/*  filter: brightness(0);*/
+/*}*/
