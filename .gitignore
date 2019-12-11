@@ -3,3 +3,6 @@
 /reactDemo.iml
 /node_modules/
 /.idea/
+/out/
+/target/
+/lib/

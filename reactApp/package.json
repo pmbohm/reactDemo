@@ -37,5 +37,11 @@
     "@semantic-ui-react/craco-less": "^1.1.0",
     "semantic-ui-less": "^2.4.1"
   },
-  "homepage": "/shiny"
+  "homepage": "/shiny",
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:8888",
+      "ws": true
+    }
+  }
 }
