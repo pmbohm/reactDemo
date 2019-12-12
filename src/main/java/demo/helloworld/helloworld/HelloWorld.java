@@ -13,7 +13,7 @@ public class HelloWorld {
     final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mm:ss a 'on' MMMM d, yyyy'.'");
     final LocalDateTime now = LocalDateTime.now();
 
-    return ("Hello, World! The current time is " + dtf.format(now));
+    return ("Hello! The current time is " + dtf.format(now));
   }
 
 }

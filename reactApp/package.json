@@ -37,11 +37,5 @@
     "@craco/craco": "^5.6.2",
     "@semantic-ui-react/craco-less": "^1.1.0"
   },
-  "homepage": ".",
-  "proxy": {
-    "/api": {
-      "target": "http://localhost:8888",
-      "ws": true
-    }
-  }
+  "homepage": "."
 }

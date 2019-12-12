@@ -99,7 +99,7 @@ class DesktopContainer extends Component {
                         >
                             <Container>
                                 <Menu.Item as='a' active>
-                                    MAIN
+                                    MAINlink
                                 </Menu.Item>
                                 <Menu.Item as='a'>Work</Menu.Item>
                                 <Menu.Item as='a'>Company</Menu.Item>
