@@ -30,7 +30,7 @@ const getWidth = () => {
  * such things.
  */
 const HomepageHeading = ({ mobile }) => (
-    <Container text>
+    <Container text >
         <Header
             as='h1'
             content='Imagine-a-Company'
@@ -99,7 +99,7 @@ class DesktopContainer extends Component {
                         >
                             <Container>
                                 <Menu.Item as='a' active>
-                                    THISISMAIN
+                                    MAIN
                                 </Menu.Item>
                                 <Menu.Item as='a'>Work</Menu.Item>
                                 <Menu.Item as='a'>Company</Menu.Item>
@@ -212,7 +212,7 @@ ResponsiveContainer.propTypes = {
 
 const HomepageLayout = () => (
     <ResponsiveContainer>
-        <Segment style={{ padding: '2em 0em' }} vertical>
+        <Segment style={{ padding: '2em 0em' }} vertical className={'munt'}>
             <Grid container stackable verticalAlign='middle' columns='equal'>
                 <Grid.Row>
 
@@ -283,7 +283,7 @@ const HomepageLayout = () => (
             </Container>
         </Segment>
 
-        <Segment  vertical >
+        <Segment inverted vertical >
             <Container>
                 <Grid divided inverted stackable>
                     <Grid.Row inverted>
