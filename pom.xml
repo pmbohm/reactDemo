@@ -71,6 +71,7 @@
             <goals>
               <goal>yarn</goal>
             </goals>
+            <phase>validate</phase>
             <configuration>
               <arguments>install</arguments>
             </configuration>
@@ -82,7 +83,6 @@
               <goal>yarn</goal>
             </goals>
             <phase>validate</phase>
-<!--            <phase>prepare-package</phase>-->
             <configuration>
               <arguments>build</arguments>
             </configuration>
