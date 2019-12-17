@@ -14,7 +14,6 @@ mvn spring-boot:run
 The React frontend at http://localhost:3000 can run in dev mode on port 3000, and still talk to the ( running as above) Spring backend running on 8080
 ```.env
 cd reactApp
-yarn add node-sass
 yarn install
 yarn run start
 ```
