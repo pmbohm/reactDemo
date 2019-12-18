@@ -2,7 +2,10 @@ import React, { Component } from 'react'
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
+import Alert from 'react-bootstrap/Alert';
 import Col from 'react-bootstrap/Col';
+import BootstrapTable from "../components/BootstrapTable";
+import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 
 class ReactBootstrapTest extends Component {
     state = {}
@@ -22,31 +25,11 @@ class ReactBootstrapTest extends Component {
                     <Col>3 of 3</Col>
                 </Row>
                 </Jumbotron>
+                <Alert variant={'light'}>
+                https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/about.html
+                </Alert>
 
-                <table data-toggle="table">
-                    <thead>
-                    <tr>
-                        <th>Item ID</th>
-                        <th>Item Name</th>
-                        <th>Item Price</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Item 1</td>
-                        <td>$1</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Item 2</td>
-                        <td>$2</td>
-                    </tr>
-                    </tbody>
-                </table>
-
-
-                <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.css">
+                <BootstrapTable />
 
             </Container>
 
