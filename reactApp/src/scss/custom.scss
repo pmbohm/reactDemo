@@ -1,0 +1,17 @@
+//https://getbootstrap.com/docs/4.3/getting-started/theming/
+
+// Custom.scss
+
+// Example overrides
+$body-bg: #ccc;
+$body-color: #111;
+
+.col {
+  background-color: darkkhaki;
+  margin: 1px;
+}
+
+// Option A: Include all of Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+

@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-import 'semantic-ui-less/semantic.less'
-import DesktopContainer from "./layouts/Homepage";
+import './scss/custom.scss';
+
+import ReactBootstrapTest from "./pages/react-bootstrap-test"
 
 function App() {
   return (
     <div className="App">
-        <DesktopContainer />
+        <ReactBootstrapTest />
     </div>
   );
 }

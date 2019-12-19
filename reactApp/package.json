@@ -6,17 +6,19 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "bootstrap-table": "^1.15.5",
+    "node-sass": "^4.13.0",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-bootstrap-table-next": "^3.3.3",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "semantic-ui-react": "^0.88.2",
-    "serialize-javascript": ">=2.1.1",
-    "semantic-ui-less": "^2.4.1"
+    "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,10 +34,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@craco/craco": "^5.6.2",
-    "@semantic-ui-react/craco-less": "^1.1.0"
   },
   "homepage": "."
 }

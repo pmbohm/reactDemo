@@ -1,20 +1,5 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import {
-    Button,
-    Container,
-    Divider,
-    Grid,
-    Header,
-    Icon,
-    Image,
-    List,
-    Menu,
-    Responsive,
-    Segment,
-    Sidebar,
-    Visibility,
-} from 'semantic-ui-react'
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -212,7 +197,8 @@ ResponsiveContainer.propTypes = {
 
 const HomepageLayout = () => (
     <ResponsiveContainer>
-        <Segment style={{ padding: '2em 0em' }} vertical className={'munt'}>
+
+        <Segment style={{ padding: '2em 0em' }} AODNBlue vertical >
             <Grid container stackable verticalAlign='middle' columns='equal'>
                 <Grid.Row>
 
@@ -266,7 +252,7 @@ const HomepageLayout = () => (
                     horizontal
                     style={{ margin: '3em 0em', textTransform: 'uppercase' }}
                 >
-                    <a href='#'>Case Studies</a>
+
                 </Divider>
 
                 <Header as='h3' style={{ fontSize: '2em' }}>
@@ -286,7 +272,7 @@ const HomepageLayout = () => (
         <Segment inverted vertical >
             <Container>
                 <Grid divided inverted stackable>
-                    <Grid.Row inverted>
+                    <Grid.Row>
                         <Grid.Column width={3}>
                             <Header  as='h4' content='About' />
                             <List link inverted>
