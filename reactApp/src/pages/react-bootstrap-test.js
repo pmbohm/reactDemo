@@ -26,7 +26,10 @@ class ReactBootstrapTest extends Component {
                 </Row>
                 </Jumbotron>
                 <Alert variant={'light'}>
-                https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/about.html
+                    <ul>
+                        <li>Components are -  <Alert.Link href="https://react-bootstrap.netlify.com/">React Bootstrap</Alert.Link></li>
+                        <li>Extended with <Alert.Link href="https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/about.html">Bootstrap Table </Alert.Link></li>
+                    </ul>
                 </Alert>
 
                 <BootstrapTable />
